@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 1.2rem 0;
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+
+.card {
+    margin-bottom: 3.5rem;
+    background-color: #fff;
+}
+
+.card-head {
+    padding: 1.3rem .8rem;
+    overflow: hidden;
+}
+
+.card-head h3{
+    float: left;
+}
+
+.card-head span{
+    float: right;
+    color: gray;
+}
+
+.card-body {
+    padding: 1.3rem 1.5rem;
+}
+
+.hashtag {
+    font-weight: 600;
+}
